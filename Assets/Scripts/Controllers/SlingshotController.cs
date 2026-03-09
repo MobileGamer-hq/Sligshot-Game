@@ -5,7 +5,8 @@ public class SlingshotController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private bool dragging;
-
+    
+    
     private Vector2 startPosition;
     private Vector2 targetPosition;
 
@@ -49,6 +50,7 @@ public class SlingshotController : MonoBehaviour
 
             targetPosition = new Vector2(worldPos.x, worldPos.y);
         }
+        
     }
 
     void FixedUpdate()
@@ -67,6 +69,15 @@ public class SlingshotController : MonoBehaviour
             }
         }
     }
-    
+        
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ball"))
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
 
+            rb.MovePosition(startPosition);
+        }
+    }
 }
