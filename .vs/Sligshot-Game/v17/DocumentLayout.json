@@ -1,69 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\VICTUS\\Documents\\Unity Projects\\Git Repo\\Sligshot-Game\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D280A45C-9942-7CFA-1F5D-D693ED8485C4}|Assembly-CSharp.csproj|c:\\users\\victus\\documents\\unity projects\\git repo\\sligshot-game\\assets\\scripts\\controllers\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D280A45C-9942-7CFA-1F5D-D693ED8485C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controllers\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D280A45C-9942-7CFA-1F5D-D693ED8485C4}|Assembly-CSharp.csproj|C:\\Users\\VICTUS\\Documents\\Unity Projects\\Git Repo\\Sligshot-Game\\assets\\scripts\\controllers\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D280A45C-9942-7CFA-1F5D-D693ED8485C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controllers\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D280A45C-9942-7CFA-1F5D-D693ED8485C4}|Assembly-CSharp.csproj|C:\\Users\\VICTUS\\Documents\\Unity Projects\\Git Repo\\Sligshot-Game\\assets\\scripts\\controllers\\targetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D280A45C-9942-7CFA-1F5D-D693ED8485C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controllers\\targetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\nduka\\Documents\\GitHub\\Sligshot-Game\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TargetController.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Documents\\Unity Projects\\Git Repo\\Sligshot-Game\\Assets\\Scripts\\Controllers\\TargetController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controllers\\TargetController.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Documents\\Unity Projects\\Git Repo\\Sligshot-Game\\Assets\\Scripts\\Controllers\\TargetController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controllers\\TargetController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T21:39:36.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MovementController.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Documents\\Unity Projects\\Git Repo\\Sligshot-Game\\Assets\\Scripts\\Controllers\\MovementController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controllers\\MovementController.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Documents\\Unity Projects\\Git Repo\\Sligshot-Game\\Assets\\Scripts\\Controllers\\MovementController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controllers\\MovementController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T21:36:52.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BallController.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Documents\\Unity Projects\\Git Repo\\Sligshot-Game\\Assets\\Scripts\\Controllers\\BallController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controllers\\BallController.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Documents\\Unity Projects\\Git Repo\\Sligshot-Game\\Assets\\Scripts\\Controllers\\BallController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controllers\\BallController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T21:33:41.559Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
