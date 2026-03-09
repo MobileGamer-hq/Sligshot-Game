@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class MovementController : MonoBehaviour
@@ -5,29 +6,18 @@ public class MovementController : MonoBehaviour
     public Vector2 ballPosition;
     public Vector2 ballVelocity;
 
-    Vector2 collisionNormal;
+    Rigidbody2D rb;
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    private void Start()
     {
-        if (collision.collider.CompareTag("Obstacle"))
-        {
-            //Gets the first contact with a collider tagged {OBSTACLE}
-            collisionNormal = collision.GetContact(0).normal;
-        }
+        rb = GetComponent<Rigidbody2D>();
     }
-
-    void ReflectBall()
-    {
-    //Gets the resultant direction for the ball and normalises
-        Vector2 newDirection = (ballPosition - collisionNormal).normalized;
-
-    //Sets the new velocity of the ball
-        Vector2 newVelocity = newDirection;
-    }
-
 
     void Update()
     {
+        ballVelocity = rb.linearVelocity;
         ballPosition = gameObject.transform.position;
+
+        Console.Write(ballVelocity);
     }
 }
