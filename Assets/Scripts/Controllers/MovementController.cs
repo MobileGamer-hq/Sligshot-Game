@@ -1,4 +1,5 @@
 using System;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class MovementController : MonoBehaviour
@@ -18,6 +19,6 @@ public class MovementController : MonoBehaviour
         ballVelocity = rb.linearVelocity;
         ballPosition = gameObject.transform.position;
 
-        Console.Write(ballVelocity);
+        Debug.Log(ballVelocity.magnitude);
     }
 }
