@@ -72,7 +72,7 @@ public class SlingshotController : MonoBehaviour
         
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ball"))
+        if (collision.gameObject.CompareTag(tag: "Ball"))
         {
             rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
