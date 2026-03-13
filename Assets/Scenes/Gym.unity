@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 186760928}
   - component: {fileID: 186760927}
   - component: {fileID: 186760926}
+  - component: {fileID: 186760930}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Ball
@@ -308,6 +309,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &186760930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186760925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600dfce77461724418971f89a570e209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovementController
+  ballPosition: {x: 0, y: 0}
+  ballVelocity: {x: 0, y: 0}
 --- !u!1 &366254378
 GameObject:
   m_ObjectHideFlags: 0
