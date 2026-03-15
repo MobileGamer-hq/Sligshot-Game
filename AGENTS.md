@@ -2,7 +2,7 @@
 - Project name: Sligshot Game
 - Unity version: Unity 6000.3.4f1
 - Active scene:
-  - Name: Somtos Gym
+  - Name: Gym
   - Tags:
     - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController, Ball
   - Layers:
